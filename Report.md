@@ -59,6 +59,7 @@ Between each layer, we apply a Rectified Linear Unit (ReLU).
 The agent successfully solves the environment after 442 episodes, where the moving average (over a 100-episode window) crosses the target of +13.
 
 ![scores plot](assets/scores_plot.png)
+
 _The plot above shows the training of the agent over 1000 episodes. The grey plot is the score of the agent at each episode; the blue plot is the score of the agent over a moving average window of 100 episodes (at <100 episodes, the moving average is taken from episode 0 to the current episode); the red line indicates the threshold +13 where the environment is considered solved._
 
 We note that the agent's score plateaus at approximately +16, from episode 600 onwards.
