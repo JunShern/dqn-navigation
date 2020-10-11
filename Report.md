@@ -47,10 +47,10 @@ EPSILON = 0             # fixed epsilon
 
 The Q-network has a simple architecture consisting of 2 fully-connected hidden layers between the input and output layers:
 ```
-Input layer: 37 input state dimensions
-Hidden layer 1: Fully-connected layer of size 64
-Hidden layer 2: Fully-connected layer of size 64
-Output layer: 4 output action dimensions
+INPUT LAYER:        37 input state dimensions
+HIDDEN LAYER 1:     Fully-connected layer of size 64
+HIDDEN LAYER 2:     Fully-connected layer of size 64
+OUTPUT LAYER:       4 output action dimensions
 ```
 Between each layer, we apply a Rectified Linear Unit (ReLU).
 
