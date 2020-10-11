@@ -1,9 +1,9 @@
 # dqn-navigation
-This repository contains my submission for Project 1: Navigation of the Udacity [Deep Reinforcement Learning nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).
+This repository contains my submission for Project 1: Navigation of the Udacity [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).
 
 ## Project Details
 
-The assignment is to train an agent that solves the Unity ML-Agents "Banana" environment. 
+The assignment is to train an agent that solves the [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents) "Banana" environment. 
 
 The solution implements a Deep Q-Network based on [[1]](#dqn_paper) to solve the environment. For implementation details, please see [Report.md](Report.md).
 
