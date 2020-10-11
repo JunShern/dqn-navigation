@@ -4,9 +4,10 @@ This repository contains my submission for Project 1: Navigation of the Udacity 
 
 The assignment is to train an agent that solves the [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents) "Banana" environment. 
 
-The solution implements a Deep Q-Network based on [[1]](#dqn_paper) to solve the environment. For implementation details, please see [Report.md](Report.md).
+The solution implements a Deep Q-Network based on [[1]](#dqn_paper) to solve the environment. For implementation and algorithm details, please see [Report.md](Report.md).
 
 ![trained_agent](assets/trained_agent.gif)
+
 _The trained agent is able to effectively navigate the environment, collecting yellow bananas (positive rewards) while avoiding blue bananas (negative rewards)._
 
 #### Environment
