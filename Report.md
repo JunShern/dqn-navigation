@@ -27,7 +27,7 @@ For in-depth analysis and explanation of the Deep Q-Network and its design, plea
 - The **Q-network** acts as a function approximator for the Q-value of every state-action pair.
 - Since the environment provides us with the state, we learn directly on the state variables (instead of the 64x64 image input as in [[1]](#dqn_paper)). This simplifies our learning process, allowing us to use a Q-network that operates directly on the 37-dimension input state without needing convolutional layers.
 - During the learning step, the Q-network applies the Bellman equation to minimize a **loss function** describing the mean-squared error between the network's estimated Q-value and the target Q-value which is based on the sampled reward.
-- To removing correlations in the observation sequence, the algorithm uses **experience replay**. We accumulate a buffer of experience samples while exploring the environment, then perform learning in a offline fashion by sampling from the buffer in a uniform random way to perform batched learning.
+- To remove correlations in the observation sequence, the algorithm uses **experience replay**. We accumulate a buffer of experience samples while exploring the environment, then perform learning in a offline fashion by sampling from the buffer in a uniform random way to perform batched learning.
 - The algorithm maintains a **separate target Q-network** which is identical to the main Q-network, but only updated periodically. This helps to keep the target still during training, and improves the stability of the learning.
 - Our final solution uses a fixed `EPSILON = 0`, which means that the agent always acts greedily. Empirically, this was found to perform well (see [Results](#results) below).
 
